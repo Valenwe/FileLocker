@@ -1,0 +1,6 @@
+{
+    "require": {
+        "phpseclib/phpseclib": "^3.0",
+        "christian-riesen/otp": "^2.7"
+    }
+}

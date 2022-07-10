@@ -1,0 +1,91 @@
+* {
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    z-index: 1;
+}
+
+.flexbox {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 15px;
+    z-index: 1;
+    flex-direction: column;
+}
+
+.title_box {
+    display: flex;
+    justify-content: center;
+    z-index: 1;
+}
+
+.img_qr {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 40px;
+    padding-top: 40px;
+    z-index: 1;
+}
+
+.passphrase {
+    display: flex;
+    width: auto;
+    align-items: center;
+    justify-content: center;
+    z-index: 1;
+    padding-bottom: 20px;
+}
+
+.pv_phrase {
+    color: white !important;
+    background-color: #842029;
+    padding: 15px 15px 15px 15px;
+    z-index: 1;
+}
+
+.title {
+    color: #0d6efd;
+    z-index: 1;
+    padding-top: 25px;
+}
+
+.start_btn {
+    border: none;
+    color: white;
+    background-color: dodgerblue;
+    padding: 16px 32px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    font-size: 30px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    border-radius: 8px;
+    z-index: 1;
+}
+
+
+/* Style the video: 100% width and height to cover the entire window */
+
+#campfire {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover;
+    z-index: 0;
+}
+
+.main_box {
+    display: flex;
+    justify-content: center;
+    z-index: 0;
+}
+
+.txt {
+    color: white;
+}
