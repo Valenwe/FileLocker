@@ -30,4 +30,4 @@ RewriteRule ^BACKEND\.* /index.php
 
 ## Install TKDND (only if you want to use the source code):
 Download here https://sourceforge.net/projects/tkdnd/
-Paste the folder tkdndX.X in <root python folder>/tcl
+Paste the folder tkdndX.X in ~/python root folder/tcl
